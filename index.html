@@ -1,0 +1,700 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mon Portfolio</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+  <!-- Bootstrap Icons -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css" rel="stylesheet">
+</head>
+<body class="text-white text-center">
+
+  <nav class="navbar navbar-expand-lg navbar-dark fixed-top navbar-elegant">
+    <div class="container">
+      <a class="navbar-brand" href="#home">ELHADJI Atika</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+          <li class="nav-item"><a class="nav-link active" aria-current="page" href="#home">Accueil</a></li>
+          <li class="nav-item"><a class="nav-link" href="#about">À propos</a></li>
+          <li class="nav-item"><a class="nav-link" href="#about">Éducation</a></li>
+          <li class="nav-item"><a class="nav-link" href="#projects">Projets</a></li>
+          <li class="nav-item"><a class="nav-link" href="#skills">Compétences</a></li>
+          <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Hero Section -->
+  <section class="hero hero-split" id="home">
+    <div class="containerACC">
+      <div class="row align-items-center justify-content-center hero-grid">
+        <div class="col-md-6 order-md-1 text-center text-md-start hero-left" id="cont_info">
+          <h1 class="hero-title fw-bold mb-3">
+            <span class="line-1">Data</span><br>
+            <span class="line-2">Scientist.</span>
+          </h1>
+          <p class="lead hero-bio mb-4">Étudiante en dernière année en Data Science & IA. <br> Je suis à la recherche d'un <strong>stage de fin d'étude PFE</strong>.</p>
+
+          <div class="hero-contacts mb-3">
+            <a href="tel:+212600000000" class="contact-chip"><i class="bi bi-telephone"></i><span>+212 6 51170297</span></a>
+            <a href="mailto:email@example.com" class="contact-chip"><i class="bi bi-envelope"></i><span>email@example.com</span></a>
+            <a href="https://www.linkedin.com/in/atika-elhadji-761142247/" target="_blank" class="contact-chip"><i class="bi bi-linkedin"></i><span>linkedin.com/in/atika-elhadji-761142247</span></a>
+            <a href="https://github.com/1512200" target="_blank" class="contact-chip"><i class="bi bi-github"></i><span>github.com/1512200</span></a>
+          </div>
+          
+        </div>
+        
+        
+      </div>
+      <div class="col-md-6 order-md-2 text-center text-md-end hero-right" >
+          <div class="hero-photo-card" id="profil">
+            <img src="images/profil.png" alt="Photo de profil" class="hero-photo-square" width="300" height="300">
+          </div>
+          <!-- Bouton de téléchargement CV -->
+          <div class="mt-4" id="btn_cv">
+            <a href="CV_ATIKA_ELHADJI_F.pdf" download="CV_ATIKA_ELHADJI.pdf" class="btn btn-warning btn-lg">
+              <i class="bi bi-download me-2"></i>Télécharger mon CV
+            </a>
+          </div>
+        </div>
+    </div>
+  </section>
+
+<section id="about" class="py-5 bg-light">
+  <div class="container">
+    <div class="row align-items-center">
+      <!-- Image -->
+      <div class="col-md-4 text-center mb-4 mb-md-0">
+        <img src="images/profile2.jpg" alt="About Me" class="rounded-3 shadow-lg" width="250">
+      </div>
+
+      <!-- Texte -->
+      <div class="col-md-8">
+        <h2 class="mb-3">À propos de moi</h2>
+        <p class="lead">
+          👋 Bonjour, je m’appelle <strong> Atika El Hadji</strong>, étudiante en <strong>3ème année Data Science à l’Institut National de Statistique et d’Économie Appliquée (INSEA).</strong>
+        </p>
+        <p>
+          Passionnée par la Data Science et l’Intelligence Artificielle, je m’intéresse particulièrement à la manière dont les données peuvent être transformées en insights stratégiques et en solutions intelligentes qui créent de la valeur.
+          <br>
+          🎯 Je suis actuellement à la recherche d’un <strong> stage de fin d’études (PFE)</strong> dans le domaine de la Data Science et de l’IA, afin de mettre en pratique mes compétences techniques, approfondir mon expertise et contribuer activement à des projets innovants.
+        </p>
+        <a href="#projects" class="btn btn-primary mt-3">Voir mes projets</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Section Éducation -->
+<section id="education" class="py-5">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-8 mx-auto">
+        <h2 class="text-center mb-5 section-title">Mon Parcours Académique</h2>
+        
+        <div class="timeline">
+          <!-- Étape 1: Baccalauréat -->
+          <div class="timeline-item">
+            <div class="timeline-marker">
+              <i class="bi bi-graduation-cap"></i>
+            </div>
+            <div class="timeline-content">
+              <div class="timeline-year">2019-2020</div>
+              <h4>Baccalauréat Sciences Mathématiques</h4>
+              <p class="institution">Lycée Ibn Tofail, Oued Zem</p>
+              <p class="description">Obtention du baccalauréat avec mention trés bien, spécialisation en sciences mathématiques.</p>
+            </div>
+          </div>
+
+          <!-- Étape 2: Classes Préparatoires -->
+          <div class="timeline-item">
+            <div class="timeline-marker">
+              <i class="bi bi-book"></i>
+            </div>
+            <div class="timeline-content">
+              <div class="timeline-year">2020-2022</div>
+              <h4>Classes Préparatoires MP</h4>
+              <p class="institution">Lycée Ibn Abdoune, Khouribga</p>
+              <p class="description">Formation intensive en mathématiques et physique, préparation aux concours des grandes écoles.</p>
+            </div>
+          </div>
+
+          <!-- Étape 3: INSEA -->
+          <div class="timeline-item">
+            <div class="timeline-marker">
+              <i class="bi bi-laptop"></i>
+            </div>
+            <div class="timeline-content">
+              <div class="timeline-year">2022-Présent</div>
+              <h4>Data Science </h4>
+              <p class="institution">Institut National de Statistique et d'Économie Appliquée (INSEA), Rabat</p>
+              <p class="description">Formation spécialisée en Science des Données et Machine Learning, enrichie par une solide base en statistiques et en mathématiques appliquées. </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Section Projets -->
+<section id="projects" class="py-5">
+  <div class="container">
+    <div class="row">
+      <div class="col-12">
+        <h2 class="text-center mb-5 section-title">Mes Projets</h2>
+        
+        <div class="row g-4">
+          <!-- Projet 1: Prédiction de prêt bancaire -->
+          <div class="col-lg-4 col-md-6">
+            <div class="project-card" onclick="openModal('modal1')">
+              <div class="project-icon">
+                <i class="bi bi-graph-up-arrow"></i>
+              </div>
+              <h4>Prédiction d’Approbation de Prêt Bancaire.</h4>
+              <p class="project-type">Data Science & Machine Learning</p>
+              <div class="project-description">
+                <p><strong>Objectif :</strong> Développer un modèle prédictif permettant d’évaluer l’éligibilité des clients à un prêt bancaire.</p>
+                <!--<ul>
+                  <li> <strong>Préparation des données</strong> : nettoyage des valeurs manquantes, suppression des doublons, encodage des variables catégorielles.</li>
+                  <li><strong>Analyse exploratoire (EDA) </strong>: statistiques descriptives, analyse de la variable cible (Loan_Status), analyses univariées et bivariées.</li>
+                  <li><strong>Modélisation</strong> : mise en place d’un modèle de régression logistique, entraînement et optimisation via GridSearchCV.</li>
+                  <li><strong>Évaluation</strong> : interprétation des résultats à travers des matrices de confusion et des courbes ROC.</li>
+                  
+                </ul>
+                <div class="tech-stack">
+                  <span class="tech-tag">Python</span>
+                  <span class="tech-tag">Pandas</span>
+                  <span class="tech-tag">Scikit-learn</span>
+                  <span class="tech-tag">Matplotlib</span>
+                  <span class="tech-tag">Seaborn</span>
+                </div> -->
+              </div>
+            </div>
+          </div>
+          <div id="modal1" class="modal">
+  <div class="modal-content">
+    <span class="close" onclick="closeModal('modal1')">&times;</span>
+    <h2 class="title_P"> Prédiction d’Approbation de Prêt Bancaire</h2>
+    <br>
+    <div class="project-image-container mb-4">
+      <img src="images/projet1.png" alt="Capture du projet Prédiction de Prêt Bancaire" class="project-modal-image">
+    </div>
+    <p><strong>description:</strong> Ce projet a consisté à développer un modèle de machine learning permettant de prédire l’éligibilité des clients à un prêt bancaire. J’ai mené une analyse exploratoire approfondie (EDA) pour comprendre les tendances des données, nettoyé et encodé les variables catégorielles, puis construit un modèle de régression logistique. L’évaluation a été réalisée à l’aide de matrices de confusion et de courbes ROC afin d’optimiser la performance prédictive.</p>
+    <br>
+    <br>
+    <div class="tech-stack">
+      <span class="tech-tag">Python</span>
+      <span class="tech-tag">Pandas</span>
+      <span class="tech-tag">Scikit-learn</span>
+      <span class="tech-tag">Matplotlib</span>
+      <span class="tech-tag">Seaborn</span>
+    </div>
+  </div>
+</div>
+<!-- Projet 3: Chatbot Multi-Agent -->
+          <div class="col-lg-4 col-md-6">
+            <div class="project-card" onclick="openModal('modal2')">
+              <div class="project-icon">
+                <i class="bi bi-robot"></i>
+              </div>
+              <h4>Chatbot Multi-Agent RAG</h4>
+              <p class="project-type">Intelligence Artificielle</p>
+              <div class="project-description">
+                <p><strong>Objectif :</strong> Développer un chatbot intelligent capable de traiter différentes requêtes grâce à une architecture multi-agent.</p>
+                <!--<ul>
+                  <li>Conception d’une architecture multi-agent (Sales, Onboarding, Réclamations).</li>
+                  <li>Intégration de la technologie RAG (Retrieval-Augmented Generation) pour combiner recherche documentaire et génération de réponses.</li>
+                  <li>Mise en place d’un routage intelligent orientant automatiquement la requête vers l’agent approprié.</li>
+                  <li>Interface utilisateur unifiée</li>
+                  
+
+                </ul>
+                <div class="tech-stack">
+                  <span class="tech-tag">Python</span>
+                  <span class="tech-tag">RAG</span>
+                  <span class="tech-tag">LLM</span>
+                  <span class="tech-tag">Multi-Agent systems</span>
+                  <span class="tech-tag">AI</span>
+                </div> -->
+              </div>
+            </div>
+          </div>
+          <div id="modal2" class="modal">
+  <div class="modal-content">
+    <span class="close" onclick="closeModal('modal2')">&times;</span>
+    <h2 class="title_P">Chatbot Multi-Agent RAG</h2>
+    <br>
+    <div class="project-image-container mb-4">
+      <img src="images/projet2.png" alt="Capture du projet Prédiction de Prêt Bancaire" class="project-modal-image">
+    </div>
+    <p><strong>description:</strong> Mise en place d’un chatbot intelligent basé sur une architecture multi-agent (Sales, Onboarding, Réclamations), utilisant la technologie RAG (Retrieval-Augmented Generation) pour combiner recherche documentaire et génération de réponses contextuelles. Ce système intègre un routage intelligent des requêtes vers l’agent approprié et supporte divers types de données (PDF, images, vidéos), grâce à l’utilisation de bibliothèques telles que MyPDF et BLIP. L’objectif est de fournir une expérience utilisateur fluide avec une interface unifiée et une prise de décision contextuelle.</p>
+    <br>
+    <br>
+    <div class="tech-stack">
+      <span class="tech-tag">Python</span>
+                  <span class="tech-tag">RAG</span>
+                  <span class="tech-tag">LLM</span>
+                  <span class="tech-tag">Multi-Agent systems</span>
+                  <span class="tech-tag">AI</span>
+    </div>
+  </div>
+</div>
+          <!-- Projet 2: Data Engineering -->
+          <div class="col-lg-4 col-md-6">
+            <div class="project-card" onclick="openModal('modal3')">
+              <div class="project-icon">
+                <i class="bi bi-database-gear"></i>
+              </div>
+              <h4>Analyse des Avis Clients Bancaires</h4>
+              <p class="project-type">Data Engineering</p>
+              <div class="project-description">
+                <p><strong>Objectif :</strong> Pipeline automatisé d'analyse des avis clients sur les banques marocaines</p>
+                <!--<ul>
+                  <li>Scraping Web avec Selenium & BeautifulSoup</li>
+                  <li>Nettoyage et normalisation des données</li>
+                  <li>Modèles DBT pour structuration</li>
+                  <li>Orchestration avec Apache Airflow</li>
+                  <li>Dashboard interactif Looker Studio</li>
+                </ul>
+                <div class="tech-stack">
+                  <span class="tech-tag">Python</span>
+                  <span class="tech-tag">DBT</span>
+                  <span class="tech-tag">PostgreSQL</span>
+                  <span class="tech-tag">Apache Airflow</span>
+                  <span class="tech-tag">Looker Studio</span>
+                </div> -->
+              </div>
+            </div>
+          </div>
+          <div id="modal3" class="modal">
+  <div class="modal-content">
+    <span class="close" onclick="closeModal('modal3')">&times;</span>
+    <h2 class="title_P">Analyse des Avis Clients Bancaires</h2>
+    <br>
+    <div class="project-image-container mb-4">
+      <img src="images/projet4.jpeg" alt="Capture du projet Prédiction de Prêt Bancaire" class="project-modal-image">
+    </div>
+    <p><strong>description:</strong> Conception d’un pipeline de data engineering pour analyser les avis clients concernant les banques marocaines. Le projet comprend le scraping de données avec Selenium et BeautifulSoup, suivi d’un nettoyage et d’une transformation via DBT. Les données sont ensuite stockées dans un Data Warehouse basé sur PostgreSQL pour assurer une gestion fiable et évolutive. L’orchestration est réalisée avec Apache Airflow, et les résultats sont exploités dans un tableau de bord interactif sous Looker Studio afin de visualiser les insights clients et faciliter la prise de décision stratégique.</p>
+    <br>
+    <br>
+    <div class="tech-stack">
+      <span class="tech-tag">Python</span>
+                  <span class="tech-tag">Selenium</span>
+                  <span class="tech-tag">DBT</span>
+                  <span class="tech-tag">PostgreSQL</span>
+                  <span class="tech-tag">Apache Airflow</span>
+                  <span class="tech-tag">Looker Studio</span>
+    </div>
+  </div>
+</div>
+
+          
+
+          <!-- Projet 4: Protection de l'Identité Vocale -->
+          <div class="col-lg-4 col-md-6">
+            <div class="project-card" onclick="openModal('modal4')">
+              <div class="project-icon">
+                <i class="bi bi-shield-lock"></i>
+              </div>
+              <h4>Protection de l'Identité Vocale</h4>
+              <p class="project-type">Traitement du Signal</p>
+              <div class="project-description">
+                <p><strong>Objectif :</strong> Algorithme de modification des caractéristiques vocales pour préserver l'anonymat</p>
+                <!--<ul>
+                  <li>Conception d'algorithme de traitement du signal</li>
+                  <li>Modification des caractéristiques vocales</li>
+                  <li>Techniques avancées avec Librosa</li>
+                  <li>Compétition nationale Data Science (Inwi, Cleverlytics, UM6P)</li>
+                  <li>Préservation de l'anonymat des locuteurs</li>
+                </ul>
+                <div class="tech-stack">
+                  <span class="tech-tag">Python</span>
+                  <span class="tech-tag">Librosa</span>
+                  <span class="tech-tag">Signal Processing</span>
+                  <span class="tech-tag">Audio Analysis</span>
+                  <span class="tech-tag">Privacy</span>
+                </div> -->
+              </div>
+            </div>
+          </div>
+          <div id="modal4" class="modal">
+  <div class="modal-content">
+    <span class="close" onclick="closeModal('modal4')">&times;</span>
+    <h2 class="title_P">Protection de l'Identité Vocale</h2>
+    <br>
+    <div class="project-image-container mb-4">
+      <img src="images/projet6.png" alt="Capture du projet Prédiction de Prêt Bancaire" class="project-modal-image">
+    </div>
+    <p><strong>description:</strong> Développement d’un algorithme de traitement du signal visant à protéger l’identité des locuteurs en modifiant certaines caractéristiques vocales. L’approche repose sur l’utilisation de techniques avancées avec Librosa, permettant de préserver l’anonymat tout en conservant l’intelligibilité du discours. Ce projet a été présenté dans le cadre d’une compétition nationale de Data Science organisée par Inwi, Cleverlytics et l’UM6P.</p>
+    <br>
+    <br>
+    <div class="tech-stack">
+      <span class="tech-tag">Python</span>
+                  <span class="tech-tag">Python</span>
+                  <span class="tech-tag">Librosa</span>
+                  <span class="tech-tag">Signal Processing</span>
+                  <span class="tech-tag">Audio Analysis</span>
+                  <span class="tech-tag">Privacy</span>
+    </div>
+  </div>
+</div>
+
+          <!-- Projet 5: Interface de Gestion Magasin -->
+          <div class="col-lg-4 col-md-6">
+            <div class="project-card" onclick="openModal('modal5')">
+              <div class="project-icon">
+                <i class="bi bi-box-seam"></i>
+              </div>
+              <h4>Interface de Gestion Magasin</h4>
+              <p class="project-type">Développement Web & Data Analysis</p>
+              <div class="project-description">
+                <p><strong>Objectif :</strong> Interface de gestion des opérations du magasin électrique SIDI-CHENANE</p>
+                <!--<ul>
+                  <li>Analyse approfondie de la base de données produits</li>
+                  <li>Interface de gestion complète (ajout, stocks, sorties)</li>
+                  <li>Visualisation et analyse des données</li>
+                  <li>Développement d'interface utilisateur</li>
+                  <li>Optimisation des processus de gestion</li>
+                </ul>
+                <div class="tech-stack">
+                  <span class="tech-tag">Python</span>
+                  <span class="tech-tag">Jupyter</span>
+                  <span class="tech-tag">HTML/CSS</span>
+                  <span class="tech-tag">JEE</span>
+                  <span class="tech-tag">Data Analysis</span>
+                </div> -->
+              </div>
+            </div>
+          </div>
+          <div id="modal5" class="modal">
+  <div class="modal-content">
+    <span class="close" onclick="closeModal('modal5')">&times;</span>
+    <h2 class="title_P">Interface de Gestion Magasin</h2>
+    <br>
+    <div class="project-image-container mb-4">
+      <img src="images/projet3.png" alt="Capture du projet Prédiction de Prêt Bancaire" class="project-modal-image">
+    </div>
+    <p><strong>description:</strong> Développement d’une interface de gestion pour un magasin de matériel électrique, permettant la gestion des stocks, des entrées/sorties et l’analyse des données produits. L’interface inclut un module de visualisation des données pour optimiser les processus de gestion et améliorer la prise de décision.</p>
+    <br>
+    <br>
+    <div class="tech-stack">
+      <span class="tech-tag">Python</span>
+                  <span class="tech-tag">Jupyter</span>
+                  <span class="tech-tag">HTML/CSS</span>
+                  <span class="tech-tag">JEE</span>
+                  <span class="tech-tag">Data Analysis</span>
+    </div>
+  </div>
+</div>
+
+          <!-- Projet 6: Site Web Délégations Pêche -->
+          <div class="col-lg-4 col-md-6">
+            <div class="project-card" onclick="openModal('modal6')">
+              <div class="project-icon">
+                <i class="bi bi-globe"></i>
+              </div>
+              <h4>Site Web Délégations Pêche</h4>
+              <p class="project-type">Développement Full-Stack</p>
+              <div class="project-description">
+                <p><strong>Objectif :</strong> Plateforme d'optimisation de communication entre délégations de pêche et Ministère</p>
+                <!--<ul>
+                  <li>Architecture robuste Spring Boot + Angular</li>
+                  <li>Communication inter-délégations</li>
+                  <li>Interface Ministère - Délégations</li>
+                  <li>Gestion de données avec MySQL</li>
+                  <li>Suivi projet avec Git/Trello</li>
+                </ul>
+                <div class="tech-stack">
+                  <span class="tech-tag">Spring Boot</span>
+                  <span class="tech-tag">Angular</span>
+                  <span class="tech-tag">MySQL</span>
+                  <span class="tech-tag">Git</span>
+                  <span class="tech-tag">Trello</span>
+                </div> -->
+              </div>
+            </div>
+          </div>
+          <div id="modal6" class="modal">
+  <div class="modal-content">
+    <span class="close" onclick="closeModal('modal6')">&times;</span>
+    <h2 class="title_P">Site Web Délégations Pêche</h2>
+    <br>
+    
+    <p><strong>description:</strong> Réalisation d’une plateforme web facilitant la communication entre les délégations de pêche et le Ministère. Le projet repose sur une architecture robuste Spring Boot + Angular, permettant la gestion des données avec MySQL et un suivi collaboratif via Git/Trello. L’objectif est d’optimiser les échanges inter-délégations et la remontée d’informations au niveau central.</p>
+    <br>
+    <br>
+    <div class="tech-stack">
+      <span class="tech-tag">Python</span>
+                  <span class="tech-tag">Spring Boot</span>
+                  <span class="tech-tag">Angular</span>
+                  <span class="tech-tag">MySQL</span>
+                  <span class="tech-tag">Git</span>
+                  <span class="tech-tag">Trello</span>
+    </div>
+  </div>
+</div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Section Compétences -->
+<section id="skills" class="py-5">
+  <div class="container">
+    <div class="row">
+      <div class="col-12">
+        <h2 class="text-center mb-5 section-title">Mes Compétences</h2>
+        
+        <div class="row g-4">
+          <!-- Data Science & Machine Learning -->
+          <div class="col-lg-4 col-md-6">
+            <div class="skill-category">
+              <div class="skill-icon">
+                <i class="bi bi-graph-up"></i>
+              </div>
+              <h4>Data Science & ML</h4>
+              <div class="skills-list">
+                <div class="skill-item">
+                  <span class="skill-name">Préparation et nettoyage des données</span>
+                  
+                </div>
+                <div class="skill-item">
+                  <span class="skill-name">Modèles de classification & régression</span>
+                  
+                </div>
+                <div class="skill-item">
+                  <span class="skill-name">Optimisation d’hyperparamètres (GridSearchCV, RandomSearch)</span>
+                 
+                </div>
+                <div class="skill-item">
+                  <span class="skill-name">Évaluation de modèles (ROC, AUC, Matrices de confusion)</span>
+                  
+                </div>
+                <div class="skill-item">
+                  <span class="skill-name">Machine Learning supervisé & non supervisé</span>
+                  
+                </div>
+                <div class="skill-item">
+                  <span class="skill-name">Deep Learning (bases en réseaux de neurones)</span>
+                  
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- Statistiques & Mathématiques Appliquées -->
+          <div class="col-lg-4 col-md-6">
+            <div class="skill-category">
+              <div class="skill-icon">
+                <i class="bi bi-graph-up"></i>
+              </div>
+              <h4>Statistique & Mathématiques Appliquées</h4>
+              <div class="skills-list">
+                <div class="skill-item">
+                  <span class="skill-name">Statistiques descriptives et inférentielles</span>
+                  
+                </div>
+                <div class="skill-item">
+                  <span class="skill-name">Probabilités et distributions</span>
+                  
+                </div>
+                <div class="skill-item">
+                  <span class="skill-name">Tests statistiques (chi2, t-test, ANOVA…)</span>
+                  
+                </div>
+                <div class="skill-item">
+                  <span class="skill-name">Apprentissage statistique (régression linéaire, logistique, régularisation L1/L2)</span>
+                  
+                </div>
+                <div class="skill-item">
+                  <span class="skill-name">Séries temporelles (prévision, ARIMA...)</span>
+                  
+                </div>
+                <div class="skill-item">
+                  <span class="skill-name">Analyse multivariée (ACP, clustering, SVM)</span>
+                  
+                </div>
+                <div class="skill-item">
+                  <span class="skill-name">Fondements mathématiques des modèles ML & DL</span>
+                  
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Data Engineering -->
+          <div class="col-lg-4 col-md-6">
+            <div class="skill-category">
+              <div class="skill-icon">
+                <i class="bi bi-database-gear"></i>
+              </div>
+              <h4>Data Engineering</h4>
+              <div class="skills-list">
+                <div class="skill-item">
+                  <span class="skill-name">Extraction et transformation de données (ETL/ELT)</span>
+                  
+                </div>
+                <div class="skill-item">
+                  <span class="skill-name">Scraping Web (Selenium, BeautifulSoup)</span>
+                  
+                </div>
+                <div class="skill-item">
+                  <span class="skill-name">Orchestration de workflows (Apache Airflow)</span>
+                  
+                </div>
+                <div class="skill-item">
+                  <span class="skill-name">Data Warehousing (PostgreSQL, SQL avancé)</span>
+                  
+                </div>
+                <div class="skill-item">
+                  <span class="skill-name">DBT pour transformation de données</span>
+                  
+                </div>
+                <div class="skill-item">
+                  <span class="skill-name">Gestion de données volumineuses et optimisation des requêtes</span>
+                  
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Intelligence Artificielle -->
+          <div class="col-lg-4 col-md-6">
+            <div class="skill-category">
+              <div class="skill-icon">
+                <i class="bi bi-robot"></i>
+              </div>
+              <h4>Intelligence Artificielle</h4>
+              <div class="skills-list">
+                <div class="skill-item">
+                  <span class="skill-name">Chatbots intelligents (LLM, RAG, Multi-Agent Systems)</span>
+                  
+                </div>
+                <div class="skill-item">
+                  <span class="skill-name">Traitement automatique du langage naturel (NLP)</span>
+                  
+                </div>
+                <div class="skill-item">
+                  <span class="skill-name">Vectorisation de documents (Embeddings)</span>
+                  
+                </div>
+                <div class="skill-item">
+                  <span class="skill-name">Traitement multimodal (PDF, images, vidéos)</span>
+                  
+                </div>
+                <div class="skill-item">
+                  <span class="skill-name">Fine-tuning de modèles pré-entraînés</span>
+                  
+                </div>
+                <div class="skill-item">
+                  <span class="skill-name">Applications de l’IA générative</span>
+                  
+                </div>
+              </div>
+            </div>
+          </div>
+
+          
+
+
+          <!-- Outils & Technologies -->
+          <div class="col-lg-4 col-md-6">
+            <div class="skill-category">
+              <div class="skill-icon">
+                <i class="bi bi-tools"></i>
+              </div>
+              <h4>Outils & Technologies</h4>
+              <div class="skills-list">
+                <div class="skill-item">
+                  <span class="skill-name"><strong>Langages : </strong> Python, SQL, HTML/CSS, Java (bases), Angular (bases)</span>
+                  
+                </div>
+                <div class="skill-item">
+                  <span class="skill-name"><strong>Librairies Python : </strong> Pandas, NumPy, Scikit-learn, Matplotlib, Seaborn, Librosa...</span>
+                  
+                </div>
+                <div class="skill-item">
+                  <span class="skill-name"><strong>Frameworks & outils : </strong> DBT, Spring Boot, JEE</span>
+                  
+                </div>
+                <div class="skill-item">
+                  <span class="skill-name"><strong>Outils de collaboration : </strong>Git/GitHub/GitLab, Trello</span>
+                  
+                </div>
+                <div class="skill-item">
+                  <span class="skill-name"><strong>SGBD : </strong>PostgreSQL, Mysql, Supabase</span>
+                  
+                </div>
+                <div class="skill-item">
+                  <span class="skill-name">Docker</span>
+                  
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Section Contact -->
+<section id="contact" class="py-5">
+  <div class="container">
+    <div class="row justify-content-center">
+      <div class="col-lg-8">
+        <h2 class="text-center mb-4 section-title">Contact</h2>
+        
+
+        <form class="contact-form" action="https://formsubmit.co/" method="POST">
+          <div class="row g-3">
+            <div class="col-md-6">
+              <label class="form-label">Nom</label>
+              <input type="text" name="name" class="form-control form-control-elegant" placeholder="Votre nom" required>
+            </div>
+            <div class="col-md-6">
+              <label class="form-label">Email</label>
+              <input type="email" name="email" class="form-control form-control-elegant" placeholder="votre@email.com" required>
+            </div>
+            <div class="col-12">
+              <label class="form-label">Sujet</label>
+              <input type="text" name="subject" class="form-control form-control-elegant" placeholder="Sujet du message" required>
+            </div>
+            <div class="col-12">
+              <label class="form-label">Message</label>
+              <textarea name="message" rows="5" class="form-control form-control-elegant" placeholder="Votre message..." required></textarea>
+            </div>
+            <div class="col-12 text-center">
+              <button type="submit" class="btn btn-primary px-5">Envoyer</button>
+            </div>
+          </div>
+
+          <!-- Config (optionnelle) -->
+          <input type="hidden" name="_captcha" value="false">
+        </form>
+
+        <div class="contact-social mt-4 text-center">
+          <a href="https://www.linkedin.com/in/atika-elhadji-761142247/" target="_blank" class="me-3"><i class="bi bi-linkedin fs-3"></i></a>
+          <a href="https://github.com/1512200" target="_blank"><i class="bi bi-github fs-3"></i></a>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+  <!-- Bootstrap JS -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
